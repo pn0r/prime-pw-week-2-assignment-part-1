@@ -45,9 +45,9 @@ if(luckyNumber == 2 && adventurous == true){
 // and console logs "Oh no, I have too many pets!"
 // if the value of `pets` is greater than the value of `allowedPets`.
 if(pets <= allowedPets){
-    console.log("I can have more pets!");
+    console.log("I can have more pets!")
 }else{
-    console.log("Oh no, I have too many pets!");
+    console.log("Oh no, I have too many pets!")
 };
 // STRETCH GOALS:
 
@@ -57,13 +57,11 @@ if(pets <= allowedPets){
 // be sure to think through all the scenarios. 
 // console.log `mostPets` after the conditional has run.
 let mostPets;
-if(pets > friendsPets){
+if(pets >= friendsPets){
     mostPets = pets
 }else if(friendsPets > pets){
     mostPets = friendsPets
-}else{
-    mostPets = pets
-};
+}
 console.log(mostPets);
 
 // 17 - Write a *switch* statement that logs:
@@ -88,5 +86,5 @@ switch(luckyNumber) {
 // 18 -- Rewrite question 13 with a `ternary` operator. You'll need to do research!
     
 let shouldWeGo =
-    (adventurous) ? "Adventures are great!" : "How about we stay home?";
+    (adventurous) ? "Adventures are great!" : "How about we stay home?"
 console.log(shouldWeGo);

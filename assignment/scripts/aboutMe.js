@@ -79,7 +79,7 @@ switch(luckyNumber) {
       break;
     case 2:
        console.log("Third is the one with the polka dot dress")
-      break
+      break;
     default:
         console.log("Luck is what happens when preparation meets opportunity")
   };

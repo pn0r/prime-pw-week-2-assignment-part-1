@@ -29,9 +29,9 @@ const allowedPets = 5;
 // 13 - Create a conditional: if adventurous is true, console log "Adventures are great!", 
 // if it's not true, console log "How about we stay home?"
 if(adventurous){
-    console.log("Adventures are great!")
+  console.log("Adventures are great!")
 }else{
-    console.log("How about we stay home?")
+  console.log("How about we stay home?")
 };
 
 // 14 - Create a compound conditional: if luckyNumber is 2 and adventurous is true,
@@ -45,9 +45,9 @@ if(luckyNumber == 2 && adventurous == true){
 // and console logs "Oh no, I have too many pets!"
 // if the value of `pets` is greater than the value of `allowedPets`.
 if(pets <= allowedPets){
-    console.log("I can have more pets!")
+  console.log("I can have more pets!")
 }else{
-    console.log("Oh no, I have too many pets!")
+  console.log("Oh no, I have too many pets!")
 };
 // STRETCH GOALS:
 
@@ -58,9 +58,9 @@ if(pets <= allowedPets){
 // console.log `mostPets` after the conditional has run.
 let mostPets;
 if(pets >= friendsPets){
-    mostPets = pets
+  mostPets = pets
 }else if(friendsPets > pets){
-    mostPets = friendsPets
+  mostPets = friendsPets
 }
 console.log(mostPets);
 
@@ -71,20 +71,20 @@ console.log(mostPets);
 //      Otherwise, log "Luck is what happens when preparation meets opportunity"
 //      You'll need to research how to use switch statements!
 switch(luckyNumber) {
-    case 1:
-       console.log("First is the worst")
-      break;
-    case 2:
-       console.log("Second is the best")
-      break;
-    case 2:
-       console.log("Third is the one with the polka dot dress")
-      break;
-    default:
-        console.log("Luck is what happens when preparation meets opportunity")
-  };
+  case 1:
+    console.log("First is the worst")
+    break;
+  case 2:
+    console.log("Second is the best")
+    break;
+  case 3:
+    console.log("Third is the one with the polka dot dress")
+    break;
+  default:
+    console.log("Luck is what happens when preparation meets opportunity")
+};
 // 18 -- Rewrite question 13 with a `ternary` operator. You'll need to do research!
-    
+ 
 let shouldWeGo =
-    (adventurous) ? "Adventures are great!" : "How about we stay home?"
-console.log(shouldWeGo);
+  (adventurous) ? "Adventures are great!" : "How about we stay home?"
+  console.log(shouldWeGo);
